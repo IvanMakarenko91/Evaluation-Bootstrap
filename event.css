@@ -1,3 +1,9 @@
+aside + div,
+header + div > p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5em;
+}
+
 header > div:not(nav) {
   font-size: 1.5em;
 }
@@ -40,5 +46,18 @@ nav > div > img {
   header > nav:last-of-type {
     display: none;
   }
+}
+
+.jumbotron {
+  background-image: url("images/principale.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 65vh;
+}
+
+.jumbotron > div {
+  text-decoration: underline;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2em;
 }
 /*# sourceMappingURL=event.css.map */

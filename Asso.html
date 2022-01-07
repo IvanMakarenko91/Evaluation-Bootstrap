@@ -151,6 +151,50 @@
   </main>
 
 
+
+  <div class="modal" tabindex="-1" role="dialog" id="don">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+  
+        <div class="modal-header"> <!-- Titre de la fenêtre modal. -->
+          <h5 class="modal-title">Faire un don</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="close"><span aria-hidden="true">&times;</span></button>
+          </div>
+  
+          <!-- Champ à remplir du formulaire pour effectuer un don. -->
+            <div class="modal-body">
+              <div class="form-group">
+                <label for="mail">E-mail</label>
+                <input type="email" class="form-control" name="mail" id="mail">
+              </div>
+  
+              <div class="form-group">
+                <label class="nom">Nom / Prenom</label>
+                <input type="name" class="form-control" name="nom" id="nom">
+              </div>
+              
+              <div class="form-group">
+                <label for="floatingTextarea">Message</label>
+                <textarea class="form-control" placeholder="Ecrivez si vous le souhaittez votre / vos raisons." id="floatingTextarea" rows="3"></textarea>
+              </div>
+            </div>
+  
+            <div class="input-group mb-3">
+              <span class="input-group-text">$</span>
+              <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+              <span class="input-group-text">.00</span>
+            </div>
+  
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Annuler le don</button>
+              <button type="button" class="btn btn-success" data-dismiss="modal">Envoyer le don</button> 
+            </div>
+            
+      </div>
+    </div>
+  </div>
+
+
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>

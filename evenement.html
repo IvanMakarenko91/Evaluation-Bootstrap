@@ -7,10 +7,12 @@
   <link rel="stylesheet" href="evenement.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"/>
     <link rel="stylesheet" href="event.css">
-  <title>Document</title>
+  <title>Evenement</title>
+  <meta name="description" content="World Save : Faire un don pour sauver la planete, participez des maintenant aux evenements et optez pour une solution. " />
 </head>
 <body>
   
+  <!-- Use bootstrap for main page -->
   <header class="container-fluid">
 
     <div class="row border-bottom">
@@ -23,7 +25,7 @@
      </div>
     </div>
   
-    <!-- le 1er Navbar est affiché uniquement quand la largeur de l'ecran est inferieur a 576px (mobile first). -->
+    <!-- The 1st Navbar is displayed only when the screen width is less than 576px (mobile first). -->
       <nav class="navbar navbar-dark bg-dark navbar-expand-sm p-2" style="border-radius: 5px;">
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#choix" aria-controls="choix" aria-expended="false" aria-label="toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -52,7 +54,7 @@
       </nav>
     
   
-    <!-- Dans le 2eme navbar, celui-ci est affiché uniquement quand la largeur de l'ecran est superieur ou égal a 576px. -->
+    <!-- In the 2nd navbar, it is displayed only when the screen width is greater than or equal to 576px. -->
       <nav class="row py-2  text-center">
          <div class="col-6 col-xl-3">
            <div>Qui sommes nous?</div>
@@ -73,7 +75,7 @@
       </nav>
   
       <section class="row text-center">
-        <h1>Asso 2050</h1>
+        <h1>World Save</h1>
       </section>
     
    </header>
@@ -129,6 +131,8 @@
 
  </aside>
 
+
+ <!-- Table of manifestations -->
  <div class="text-center mt-5" id="manif">Manifestations</div>
 
   <table class="table table-responsive table-bordered border-dark mt-2">
@@ -162,6 +166,7 @@
     </tbody>
   </table>
 
+  <!-- Progressbar -->
   <div class="text-center my-5">Arbre plantés
     <div class="progress offset-3 col-6">
       <div  role="progressbar" class="progress-bar bg-success progress-bar-striped" style="width: 82%;" aria-valuenow="821 542" aria-valuemin="0" aria-valuemax="1 000 000">
@@ -173,7 +178,7 @@
 
  </main>
 
-
+ <!-- Footer -->
  <footer class="container-fluid">
 
 
@@ -187,12 +192,12 @@
       <p>Suivez nos actions et soutenez nos combats!</p>
     </div>
 
-
+    <!-- footer responsive : measure the entire width of the page up to 1200px which goes to 1/3 of its width. -->
     <div class="col-12 col-xl-4 text-center p-3">
       <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-telephone-plus" viewbox="0 0 16 16">
         <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
         <path fill-rule="evenodd" d="M12.5 1a.5.5 0 0 1 .5.5V3h1.5a.5.5 0 0 1 0 1H13v1.5a.5.5 0 0 1-1 0V4h-1.5a.5.5 0 0 1 0-1H12V1.5a.5.5 0 0 1 .5-.5z"/>
-      </svg> 
+      </svg> <!-- Use icon for each representation -->
       Numero de teléphone : 06 00 00 00 00
     </div>
     <div class="col-12 col-xl-4 text-center p-3">

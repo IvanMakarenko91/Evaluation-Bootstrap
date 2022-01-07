@@ -1,10 +1,3 @@
-%ensemble {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 1.5em;
-}
-
-$menu: white;
-
 header > div:not(nav) {
   font-size: 1.5em;
 }
@@ -14,7 +7,7 @@ header > nav:nth-of-type(3) {
 }
 
 header > nav:last-of-type {
-  background-color: rgb(204, 155, 63);
+  background-color: #cc9b3f;
 }
 
 header > section {
@@ -24,12 +17,12 @@ header > section {
 }
 
 .navbar-nav a {
-  color: $menu;
+  color: white;
   margin: 0px;
 }
 
 .navbar-toggler {
-  border-bottom: $menu;
+  border-bottom: white;
 }
 
 nav > div > img {
@@ -48,3 +41,4 @@ nav > div > img {
     display: none;
   }
 }
+/*# sourceMappingURL=event.css.map */
